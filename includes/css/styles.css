@@ -13,14 +13,26 @@ Notes:	 Hand coded for Udemy.com
 /* --------------------------------------
    Layout
    -------------------------------------- */
-
+footer{
+  background: #333;
+  color: #eee;
+  font-size: 11px;
+  padding: 20px;
+}
 
 
 /* --------------------------------------
    Typography
    -------------------------------------- */
 
+.jumbotron{
+  background-color: lightgreen;
+}
 
+ul.unstyled{
+  list-style: none;
+  padding: 0;
+}
 
 /* --------------------------------------
    Navbar
@@ -51,10 +63,10 @@ Notes:	 Hand coded for Udemy.com
    -------------------------------------- */
 
 
-
 /* --------------------------------------
    Media Queries
    -------------------------------------- */
+
 
 /* Portrait & landscape phone */
 @media (max-width: 480px) {
